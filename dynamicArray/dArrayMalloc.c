@@ -10,6 +10,8 @@ int main(){
 	scanf("%d",&n);
 	int *arr = (int *)malloc(n*sizeof(int));
 	
+	// pointer arr points to the stack created above
+	
 	printf("Now enter the elements: ");
 
 	for (int i = 0; i < n;i++){
