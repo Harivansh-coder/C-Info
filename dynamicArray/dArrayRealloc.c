@@ -38,13 +38,14 @@ int main(){
         for (int i = 0; i < n;i++){
                 scanf("%d",arr+i);  
         }
+	
 	printf("New array: ");
         for (int i = 0; i < n; i++ ){
                 printf("%d\t",*(arr+i));        
 
         }
 
-	free(arr);
+	free(arr); // It is important to free up the memory
 	return 0;
 }
 
