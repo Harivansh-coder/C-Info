@@ -8,14 +8,18 @@ int main(){
         int n;
 
         scanf("%d",&n);
+	
+	// Created a pointer to point to the first memory block out of n blocks of size int
         int *arr = (int *)calloc(n,sizeof(int));
 
         printf("Now enter the elements: ");
-
+	
+	// Reading the values in
         for (int i = 0; i < n;i++){
                 scanf("%d",arr+i);  
         }
 
+	// Printing the vaules read above
         for (int i = 0; i < n; i++ ){
                 printf("%d\t",*(arr+i));        
 
