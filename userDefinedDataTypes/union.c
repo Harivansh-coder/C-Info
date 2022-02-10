@@ -1,7 +1,7 @@
 /*
-  Unions are not nuch different from Structures
-  one of the major differences except the union keyword in syntax is
-  memory behaviour of Unions.
+  Unions are not much different from structure
+  one of the major differences between union and structure, except the union keyword in syntax is
+  memory allocation.
 
   union provides memory to a single attribute at a time.
 */
